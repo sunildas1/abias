@@ -202,9 +202,6 @@
 
     .title h1 {
         font-size: 35px;
-        position: absolute;
-        top: 32px;
-        left: -156px;
     }
 
     #about-part h3 {
@@ -369,8 +366,7 @@
 
     #work-part .title h1 {
         font-size: 30px;
-        top: -35px;
-        left: 55px;
+        margin-top: -35px;
     }
 
     #work-part .title h3 {
@@ -626,8 +622,6 @@
 
     #news-part .title h1 {
         font-size: 35px;
-        top: 0;
-        left: 58px;
     }
 
     #news-part .title h3 {
