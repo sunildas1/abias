@@ -49,8 +49,8 @@
     }
 
     .logo-w {
-        width: 24%;
-        margin-top: -8px;
+        width: 20%;
+        margin-top: -10px;
         margin-left: 8px !important;
     }
 
@@ -85,7 +85,7 @@
         width: 55%;
         position: relative;
         top: 85px;
-        left: 138px;
+        left: 44%;
     }
 
     #banner h3{
@@ -204,21 +204,21 @@
         font-size: 35px;
         position: absolute;
         top: 32px;
-        left: -133px;
+        left: -156px;
     }
 
     #about-part h3 {
         font-size: 15px;
         position: absolute;
         top: 55px;
-        left: -126px;
+        left: -147px;
     }
 
     #about-part p {
         width: 180%;
         font-size: 14px;
         margin-bottom: 40px;
-        margin-left: -133px;
+        margin-left: -154px;
         margin-top: 100px;
     }
 
@@ -274,10 +274,12 @@
 
     #service-part .item::after {
         width: 48%;
+        right: -109px;
     }
 
     #service-part .item::before {
         width: 30%;
+        right: -60px;
     }
 
     /* --------------service-part-end------------ */
@@ -396,8 +398,7 @@
 
     #work-part .details .item {
         display: block;
-        margin-left: 20px;
-        margin-bottom: 25px;
+        margin: 20px 20px;
         text-align: center;
     }
 
@@ -408,7 +409,11 @@
     }
 
     #work-part .details .item .item-1 {
-        left: 6px;
+        width: auto;
+    }
+
+    #work-part .details .item .box .round {
+        margin: 0 auto;
     }
 
     #work-part .details .small h1 {
@@ -458,7 +463,8 @@
 
     #overview-part .testimonial .testi-slider {
         top: -185px;
-        left: 5px;
+        left: 15px;
+        width: 93%;
     }
 
     #overview-part .testimonial .box .item img {
@@ -501,9 +507,9 @@
     }
 
 
-    #overview-part .slick-slider{
-        width: 308px;
-        left: 12px;
+    #overview-part .slick-slider {
+        width: 90%;
+        left: 20px;
     }
 
     #overview-part .box .slick-slide{
@@ -527,6 +533,7 @@
         height: 40px;
         font-size: 16px;
         border-radius: 6px 6px 20px 6px;
+        right: 2px;
     }
 
     #overview-part .testimonial .bottom-slider .prev h3 {
@@ -605,7 +612,7 @@
     .barfiller .tip {
         padding: 0px 4px;
         font-size: 14px;
-        left: 254px !important;
+        left: 90% !important;
     }
 
     /* --------------overview-part-end------------ */
@@ -645,8 +652,7 @@
 
     #news-part .details .button {
         width: 70%;
-        margin-left: 45px;
-        margin-top: 30px;
+        margin: 30px auto;
         cursor: pointer;
     }
 
@@ -1146,7 +1152,7 @@
 
 
     #work-part .details .item .box .round {
-        margin-left: 58px;
+        margin: 0 auto;
     }
 
     #work-part .details .small h1 {
